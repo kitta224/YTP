@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  background: #f6f8fa;
+  color: #222;
+}
+
+.ytp-app {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 24px;
+  letter-spacing: 0.05em;
+}
+
+.api-key-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+  justify-content: center;
+}
+.api-key-box input {
+  flex: 1;
+  max-width: 320px;
+  padding: 8px 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.api-key-box button {
+  padding: 8px 18px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.api-key-box button:hover {
+  background: #1d4ed8;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+  justify-content: center;
+}
+.search-box input {
+  flex: 1;
+  max-width: 320px;
+  padding: 8px 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.search-box button {
+  padding: 8px 18px;
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.search-box button:hover {
+  background: #16a34a;
+}
+
+.error {
+  color: #ef4444;
+  background: #fee2e2;
+  border: 1px solid #fca5a5;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.result-item {
+  background: #f1f5f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  cursor: pointer;
+  width: 200px;
+  transition: box-shadow 0.2s, background 0.2s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result-item:hover {
+  background: #e0e7ef;
+  box-shadow: 0 4px 16px rgba(37,99,235,0.10);
+}
+.result-item img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-bottom: 1px solid #e5e7eb;
+}
+.result-item .title {
+  padding: 10px 8px;
+  font-size: 1rem;
+  text-align: center;
+  color: #222;
+  font-weight: 500;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  margin-top: 18px;
+}
